@@ -59,8 +59,11 @@ log:
 # CORS configuration
 cors:
   # Whether or not CORS configuration should be applied. Default is 'false'.
-  enabled: false
+  enabled: true
   credentials: true
+  allowed_hosts:
+    - https://todo.damianhoppe.pl
+  
 
 # The list of users. If the list is empty, then there will be no authentication.
 # Otherwise, basic authentication will automatically be configured.
