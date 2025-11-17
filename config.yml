@@ -1,5 +1,5 @@
 address: 0.0.0.0
-port: 6064
+port: 6065
 
 # TLS-related settings if you want to enable TLS directly.
 tls: false
@@ -59,13 +59,14 @@ log:
 # CORS configuration
 cors:
   # Whether or not CORS configuration should be applied. Default is 'false'.
-  enabled: true
+  enabled: false
   credentials: true
   allowed_headers:
     - Depth
   allowed_hosts:
     - http://localhost:8080
     - https://todo.damianhoppe.pl
+    - todo.damianhoppe.pl
   allowed_methods:
     - GET
   exposed_headers:
