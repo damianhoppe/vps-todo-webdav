@@ -69,9 +69,5 @@ cors:
 # the username using basic authentication, and then disable webdav's password
 # check using the option:
 #
-# noPassword: true
-users:
-  # Example 'admin' user with plaintext password.
-  - username: damianhoppe
-    password: D@mian0762pl
-    permissions: CRUD
+noPassword: true
+users: []
