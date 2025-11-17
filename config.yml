@@ -59,7 +59,7 @@ log:
 # CORS configuration
 cors:
   # Whether or not CORS configuration should be applied. Default is 'false'.
-  enabled: true
+  enabled: false
   credentials: true
 
 # The list of users. If the list is empty, then there will be no authentication.
