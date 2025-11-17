@@ -61,8 +61,7 @@ cors:
   # Whether or not CORS configuration should be applied. Default is 'false'.
   enabled: false
   credentials: true
-  allowed_headers:
-    - *
+  allowed_headers: *
   allowed_hosts:
     - http://localhost:8080
     - https://todo.damianhoppe.pl
