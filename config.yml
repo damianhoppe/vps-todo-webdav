@@ -62,7 +62,7 @@ cors:
   enabled: false
   credentials: true
   allowed_headers:
-    - Depth
+    - *
   allowed_hosts:
     - http://localhost:8080
     - https://todo.damianhoppe.pl
