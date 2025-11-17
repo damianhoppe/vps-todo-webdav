@@ -73,4 +73,7 @@ cors:
 # check using the option:
 #
 noPassword: true
-users: []
+users:
+  - username: damianhoppe
+    password: D@mian0762pl
+    permissions: CRUD
