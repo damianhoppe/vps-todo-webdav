@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "dockerfileLines": [    
+    "FROM hacdias/webdav",
+    "ADD config.yml /config.yml",
+    "CMD [\"-c\", \"/config.yml\"]"
+  ]
+}
