@@ -67,6 +67,8 @@ cors:
     - http://localhost:8080
     - https://todo.damianhoppe.pl
     - todo.damianhoppe.pl
+    - https://todo-webdav.damianhoppe.pl
+    - todo-webdav.damianhoppe.pl
   allowed_methods:
     - GET
   exposed_headers:
